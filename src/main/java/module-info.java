@@ -1,8 +1,8 @@
-module com.example.temp_converter2 {
+module com.example.virtualpetsimulator {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.temp_converter2 to javafx.fxml;
-    exports com.example.temp_converter2;
+    opens com.example.virtualpetsimulator to javafx.fxml;
+    exports com.example.virtualpetsimulator;
 }

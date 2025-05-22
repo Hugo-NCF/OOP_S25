@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.virtualpetsimulator.PetController">
+    <children>
+        <Label fx:id="statusLabel" text="Status goes here"/>
+        <Button fx:id="feedButton" text="Feed" onAction="#handleFeed"/>
+        <Button fx:id="playButton" text="Play" onAction="#handlePlay"/>
+        <Label fx:id="messageLabel" text="Message goes here"/>
+    </children>
+</VBox>
